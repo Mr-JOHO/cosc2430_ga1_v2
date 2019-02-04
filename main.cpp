@@ -16,7 +16,7 @@ void spiralMaker(string inputString, int matrixSideSize){
     char** spiralMatrix = new char*[matrixTotal];
 
     for(int i = 0; i < matrixTotal; i++)
-        spiralMatrix[i] = new char[1];
+        spiralMatrix[i] = new char[matrixSize];
 
     while(stringIndexVal < matrixTotal) {
         for (int i = 0; i < matrixSideSize; i++) {
